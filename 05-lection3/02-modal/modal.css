@@ -29,6 +29,7 @@
     right: 16px;
     top: 10px;
     cursor:pointer;
+    color:var(--modal-text);
 
 }
 
@@ -42,12 +43,13 @@
     height: 199;
     background-color:var(--white);
     border-radius: 8px;
+    box-sizing:border-box;
 }
 
 
 .modal__prompt {
 
-    color: var(--gray-4);
+    color: var(--modal-text);
     font-family: Inter;
     font-style: normal;
     font-weight: 400;

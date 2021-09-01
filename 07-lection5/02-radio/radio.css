@@ -1,5 +1,6 @@
 .radio {
    display: block;
+   margin:0;
 }
 
 .radio__input {
@@ -68,4 +69,17 @@
     line-height: 24px;
     color: var(--grey-4);
     margin-left: 12px;
+}
+
+.radio .radio__input:checked ~ .radio__state .radio__control {
+    animation: pulse .5s;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #bdc3c7; 
+    }
+    100% {
+        box-shadow: 0 0 0 1.5rem rgba(189, 195, 199, 0);
+    }
 }

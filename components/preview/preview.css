@@ -2,12 +2,16 @@
     display:flex;
     flex-wrap: wrap;
     gap: 30px;
+    background-color: var(--grey-1);
+    margin:20px;
 }
-
-.preview-element {
-    display:flex;
+.page {
+    background-color: var(--white);
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    flex: 1 1 100%;
-    gap: 30px;
+    
+}
+.page__box {
+    width: 90%;
+    margin: 20px auto;
 }
